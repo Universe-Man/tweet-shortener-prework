@@ -20,7 +20,7 @@ def word_substituter(tweet)
   wordsLong = dictionary.keys
   wordsShort = dictionary.values
   i = 0
-  until i = tweetArray.length
+  until i == tweetArray.length
     if tweetArray.include?(wordsLong[i])
       answerIndex = tweetArray.index(wordsLong[i])
       tweetArray[answerIndex].replace(wordsShort[i])
