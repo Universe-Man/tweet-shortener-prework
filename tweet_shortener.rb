@@ -25,8 +25,10 @@ def word_substituter(tweet)
       answerIndex = tweetArray.index(wordsLong[i])
       tweetArray[answerIndex].replace(wordsShort[i])
       shortTweetArray = tweetArray
+      binding.pry
     end
   end
+  shortTweetArray
 end
 
 
