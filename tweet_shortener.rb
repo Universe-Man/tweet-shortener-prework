@@ -27,6 +27,7 @@ def word_substituter(tweet)
       shortTweetArray = tweetArray
       binding.pry
     end
+    i += 1
   end
   shortTweetArray
 end
